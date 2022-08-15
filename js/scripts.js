@@ -11,5 +11,7 @@ firsth1.append("Webpage Recreation Practice");
 const p1 = document.createElement("p");
 p1.after(firsth1);
 p1.append("The HTML of this webpage was created with JavaScript.");
+
+
 document.body.append(firsth1, p1)
 })
